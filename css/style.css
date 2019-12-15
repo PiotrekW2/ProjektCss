@@ -15,7 +15,7 @@ main {
 .column {
     padding: 15px;
     margin: 30px;
-    background-color: ivory;
+    background-color: rgb(241, 240, 255);
     text-align: justify;
     text-indent: 20px;
     box-shadow: 5px 5px 2px 1px rgba(110, 100, 100, .2);
