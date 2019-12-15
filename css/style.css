@@ -1,0 +1,89 @@
+main {
+    display: flex;
+    /* flex-flow: row wrap; */
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    /* background-color: grey; */
+    /* flex-shrink: 0; */
+}
+
+.column {
+    padding: 15px;
+    margin: 30px;
+    background-color: ivory;
+    text-align: justify;
+    text-indent: 20px;
+    box-shadow: 5px 5px 2px 1px rgba(110, 100, 100, .2);
+    border: 1px solid gray;
+    border-radius: 5px;
+    flex-basis: 250px;
+}
+
+
+
+/*
+
+nav {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+ul {
+    text-align: center;
+    color: grey;
+}
+
+nav li {
+    */
+/* display: inline-block; */
+/*
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li:hover {
+    transition: 1s;
+    background-color: lightgray;
+    color: black;
+}
+
+
+
+@media screen and (min-width: 750px) {
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+} */
+
+
+/* włączenie flexa  display: flax - oddzialuje na dzieci */
+/* 
+width - dwie wartosci 1 dla gora dol, 2 dla lewo prawo
+flex shrink - 0 suwak
+flrx-shrink -1 - zweza sie  */
+
+/* flex-basis
+box-shadow
+text align
+text-indend */
+
+/* 3 pliki nav + columns + animation */
